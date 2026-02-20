@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+.color1 {
+    color: #C3937C;
+}
+
+.color2 {
+    color: #787878;
+}
+
+.color3 {
+    color: #EAD9C9;
+}
+
+.color4 {
+    color: #FBF8F1;
+}
+
+.text_logo {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text1 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
