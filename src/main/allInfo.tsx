@@ -1,8 +1,8 @@
 export const AllInfo = () => {
     return (
         <section className="w-full mx-auto lg:pt-24 text1">
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 items-center">
-                <div className="order-1 lg:pl-80 px-2 z-10">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 max-xl:items-center max-xl:text-center">
+                <div className="order-1 lg:pl-80 px-2 z-10 max-xl:items-center">
                     <h3 className="text-xl color2 mb-4 uppercase">
                         Life is an event
                     </h3>
