@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export const Timer = ({ weddingDate = '2026-06-26T18:00:00' }) => {
+export const Timer = ({ weddingDate = '2026-06-26T16:45:00' }) => {
   const calculateTimeLeft = () => {
     const difference = new Date(weddingDate).getTime() - new Date().getTime();
 
@@ -114,7 +114,7 @@ export const Timer = ({ weddingDate = '2026-06-26T18:00:00' }) => {
         <p className="color2 text-base sm:text-lg lg:text-2xl">
           Рассписание <br /> <br />
           <div className='font-bold'>
-          17:00 - сбор гостей <br />
+          16:45 - сбор гостей <br />
           17.30 - церемония <br />
           17:50-21:00 - банкет <br />
           21:00-22:00 - дискотека <br />
